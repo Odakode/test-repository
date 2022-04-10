@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@500&display=swap");
+:root {
+  --color1: rgb(243, 243, 243);
+  --color2: #474dff;
+}
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  color: var(--color1);
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: rgb(29, 29, 29);
+  min-height: 100vh;
+}
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+}
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px auto;
+  justify-content: space-around;
+}
+.header-left {
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.header-container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.header-right {
+  height: 50%;
+}
+#modem {
+  height: 100%;
+}
